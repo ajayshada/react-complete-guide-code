@@ -26,14 +26,23 @@ function App() {
     },
   ];
 
+<<<<<<< HEAD
   const addExpenseHandler = (expense) => {
     console.log("In App.js");
+=======
+  const addExpenseHandler = expense => {
+    console.log('In App.js');
+>>>>>>> 15a467853a7e630899d613c377901292f6f5f124
     console.log(expense);
   };
 
   return (
     <div>
+<<<<<<< HEAD
       <NewExpense onAddExpense={addExpenseHandler} />
+=======
+      <NewExpense  onAddExpense={addExpenseHandler}/>
+>>>>>>> 15a467853a7e630899d613c377901292f6f5f124
       <Expenses expenses={expenses} />
     </div>
   );
